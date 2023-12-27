@@ -1,6 +1,20 @@
-s = 'abcde'
+class number:
+    def __init__(self, n, e):
+        self.data = n
+        self.name = e
 
-lens = len(s)
+    def check_class(self):
+        print(self)
 
-print(lens)
 
+if __name__== '__main__':
+
+    ruby= number(4,'even')
+
+    ruby.check_class()
+
+
+
+
+
+        
