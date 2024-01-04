@@ -20,3 +20,4 @@ Trees are pending to code and starting with sorting and searching
 
 . shell sort - It is an insertion short but the sorting is done leaving the gaps in the elements multiple times until the gap is one
 
+. selection sort - take the smallest element in the array and swap at 1st spot and then from second element search for smallest element and swap it to the second element and so on 
