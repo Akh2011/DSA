@@ -1,5 +1,7 @@
 from BUbble_sort import swap
 
+'''
+
 def insertionsort_witharray(arr):
     new_array = []
     new_array.insert(0,arr[0])
@@ -11,17 +13,17 @@ def insertionsort_witharray(arr):
         
 
     return new_array
+
+'''
+def insertionsort_witharray(arr):
+    if arr == None:
+        return []
+    new_array = []
+    new_array.insert(0,arr[0])
+
+    for i in range(len(new_array))
     
-'''
-
-def insert_array(a,arry):
-	for i in range(len(arry)):
-		if a > arry[i]:
-			arry.insert(a,arry[range(len(arry)+1)])
-			return arry
-            break
-
-'''
+    for i in 
 			
 if __name__=='__main__':
 	
